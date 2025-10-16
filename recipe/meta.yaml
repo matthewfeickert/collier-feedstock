@@ -1,5 +1,5 @@
 {% set name = "collier" %}
-{% set version = "1.2.8" %}
+{% set version = "1.2.9" %}
 
 package:
   # Have top level name be unique from any outputs
@@ -9,11 +9,11 @@ package:
 
 source:
   url: https://collier.hepforge.org/downloads/?f={{ name }}-{{ version }}.tar.gz
-  sha256: 5cb24ce24ba1f62b7a96c655b31e9fddccc603eff31e60f9033b16354a6afd89
+  sha256: 98d14f638d6dda826303f24720715af8c23f1185ddaffd46533c61a92a7fcb54
   folder: source
 
 build:
-  number: 5
+  number: 0
 
 outputs:
   - name: {{ name }}
